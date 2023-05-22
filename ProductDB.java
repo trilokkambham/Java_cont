@@ -6,7 +6,7 @@ public class ProductDB {
 
     Connection conn=null;
     public ProductDB() throws SQLException {
-        conn= DriverManager.getConnection("jdbc:postgresql://localhost:5432/Product_management","postgres","trilok@03");
+        conn= DriverManager.getConnection("jdbc:postgresql://localhost:5432/Product_management","postgres","****");
     }
 
     public void save(Product p) {
